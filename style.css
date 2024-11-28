@@ -1,0 +1,16 @@
+body {
+    background-color: peachpuff;
+}
+h1 {
+    color: blue;
+}
+
+.big-title {
+    font-size: 18pt;
+    color: orange;
+    font-family: cursive;
+}
+
+.margin-50 {
+    margin: 50px;
+}

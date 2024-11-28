@@ -35,3 +35,14 @@ $(document).keypress(function (e) {
     $("h1").text(e.key);
 });
 
+// Creating new elements with: before after prepend append
+$("h1").before("<button>NEW</button>");
+
+// Animate elements with hide show toggle
+// fadeIn fadeOut fadeToggle 
+// slideIn slideOut slideToggle
+// animate({opacity: 0.5}) Numericaal valued properties only
+// Can chain together in a sequence as shown.
+$("button").on("click", function() {
+    $("h2").slideUp().slideDown().animate({opacity: 0.2});
+});
